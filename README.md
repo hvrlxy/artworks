@@ -1,4 +1,4 @@
-## A SELF QUIZZING PROGRAMMING ON RENAISSANCE ARTWORKS
+## A SELF QUIZZING PROGRAM ON RENAISSANCE ARTWORKS
 
 This repo contains a dataset on more than 60 artworks from the Renaissance period, produced by Italian artists between 1250-1450. To contribute to the data set,
 add the name of the artworks, the name of the artists, the location and the date it was produced to the Excel file artworks.xlsx in the folder **data**. You do not
