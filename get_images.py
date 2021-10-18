@@ -23,6 +23,7 @@ class GetImages():
         filename_col = []
         for i in tqdm(range(length)):
             filename = self.get_image_name(self.df['Title'][i])
+            # print(filename)
             filename_col.append(filename)
             self.get_image(self.df['URL'][i], filename)
         self.df['png'] = filename_col
