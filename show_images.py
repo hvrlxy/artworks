@@ -47,12 +47,13 @@ class ShowImage():
             return
         choice = self.pick_random()
         self.show_image(self.df['png'][choice])
+        self.is_chosen[choice] = True
         return choice
 
     def show_all(self):
         self.reset_chosen()
         while not self.is_complete():
-            self.show_next()
+            choice = self.show_next()
             input1 = input()
             self.print_info(choice)
 
