@@ -40,6 +40,7 @@ class ShowImage():
             self.console.print("Location: [bold red]" + str(self.df['Location'][choice]))
         else:
             self.console.print("Location: [bold red]" + "N/A")
+        self.console.print("Medium: [bold red]" + str(self.df['Medium'][choice]))
         self.console.print("-" * 50)
 
     def show_next(self):
